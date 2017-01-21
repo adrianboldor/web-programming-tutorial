@@ -1,0 +1,51 @@
+/*table#table_agenda {*/
+    /*width: 100%;*/
+    /*margin: 5px;*/
+    /*background: #d1ad66;*/
+    /*border-radius: 9px 9px 9px 9px;*/
+    /*-moz-border-radius: 9px 9px 9px 9px;*/
+    /*-webkit-border-radius: 9px 9px 9px 9px;*/
+    /*border: 5px none #000000;*/
+/*}*/
+
+th{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    background: #8a6f3c;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    color: white;
+    /*border: 5px none #000000;*/
+ }
+
+tr:nth-child(even){background: #d1ad66}
+
+
+td{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    /*border: 5px none #000000;*/
+}
+
+input[type=text], select {
+
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    -webkit-box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 3px 1px rgba(0,0,0,0.75);
+}
+
+
